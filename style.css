@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 :root {
-  /* 168  */
   --hue: 200;
   --primary: hsl(var(--hue), 76%, 36%);
   --primary-light: hsl(var(--hue), 76%, 56%);
@@ -16,11 +16,13 @@ body {
   font-family: "Nunito Sans", sans-serif;
   padding-top: 1rem;
 }
+
 .container {
   max-width: 900px;
   width: 90%;
   margin: auto;
 }
+
 .heading {
   text-align: center;
   margin-bottom: 1rem;
@@ -28,6 +30,7 @@ body {
   color: var(--primary);
   text-transform: uppercase;
 }
+
 .form {
   border: 0.5px solid var(--primary);
   display: flex;
@@ -36,9 +39,8 @@ body {
   height: 64px;
   align-items: center;
   border-radius: 0.5rem;
-
-  /* gap: 1rem; */
 }
+
 .todo-title-input {
   width: 90%;
   height: 70%;
@@ -47,6 +49,7 @@ body {
   font-size: 1.2rem;
   outline: none;
 }
+
 .todo-form-button {
   width: 10%;
   height: 70%;
@@ -58,9 +61,11 @@ body {
   border-radius: 0.3rem;
   cursor: pointer;
 }
+
 .todos {
   margin-top: 1rem;
 }
+
 .todo {
   background-color: var(--primary);
   color: white;
@@ -72,11 +77,12 @@ body {
   padding: 1rem;
   border-radius: 0.3rem;
 }
+
 .toggle-delete {
   display: flex;
-  /* border: 2px solid green; */
   gap: 1rem;
 }
+
 .delete-todo-button {
   font-family: inherit;
   font-weight: bold;
@@ -92,19 +98,21 @@ body {
   color: white;
   cursor: pointer;
 }
+
 .todo-checkbox {
-  /* height: 60px; */
   width: 20px;
   outline: none;
   border: none;
   accent-color: white;
 }
+
 .todo-title {
   font-size: 1.2rem;
   font-weight: bold;
   color: var(--primary-super-light);
   text-transform: capitalize;
 }
+
 .completed {
   text-decoration: line-through;
   opacity: 0.8;
